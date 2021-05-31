@@ -1,0 +1,38 @@
+/*comentario en css*/
+/*poner estilo*/
+body{
+    /*ponerle color al fondo con codigo de colores*/
+    background-color: rgb(255, 243, 134);
+    /*cambiarle de color a las letras*/
+    color: blue;
+    /*estilo de letra*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*recorer la posicion*/
+    padding-left: 10em;
+}
+/* Especificar el estilo de la lista */
+ul.navbar{
+    /*Estilo*/
+    list-style-type: none;
+    /*Espacio entre contenido*/
+    padding: 0;
+    /*margen del contenido*/
+    margin: 1;
+    /*posicion*/
+    position: absolute;/*absolute-lo puedes cambiar a donde quieras*/
+    /*poscisiones*/
+    /*alto*/
+    top: 2em;
+    /*moverlo hacia el lado izquierdo*/
+    left: 1em;
+    /*ancho */
+    width:9em;
+}
+/*configurar el estilo de la lista de manera especifica a los elementos*/
+ul.navbar li{
+    background: violet;
+    margin: 0.5em 0 0 0.5em;/*arriba, derecha, abajo, izquierda*/
+    padding: 0.5em;
+    /*color y tamano del borde*/
+    border-right: 1em solid black ;
+}
